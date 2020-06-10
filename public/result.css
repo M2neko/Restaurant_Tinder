@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+}
+html {
+}
+body {
+  padding: 20px;
+  height: 100%;
+  background-color: #FFCF99;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 0%;
+  background-image: url("https://cdn.glitch.com/60cbf0c8-51a4-497f-a391-d3bf5e32e6be%2Fsmall.png?v=1591243017049");
+}
+#top1 {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+img {
+  display: block;
+  width: 35%;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.tinder--card {
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  height: 350px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding-bottom: 40px;
+  top: 12%;
+  position: relative;
+}
+.tinder--card img {
+  max-width: 100%;
+  pointer-events: none;
+}
+.tinder--card h3 {
+  pointer-events: none;
+}
+.tinder--card p {
+  margin-top: 24px;
+  pointer-events: none;
+}
+.dollar {
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  font-family: "Carter One", cursive;
+}
+.restname {
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+  margin-top: 10px;
+  left: 10px;
+  font-family: "Carter One", cursive;
+}
+.rest--tinder {
+  width: 100%;
+  height: 60%;
+}
+.tinder--card img {
+  max-width: 100%;
+  pointer-events: none;
+}
+.rating--tinder {
+  margin-top: 10px;
+  margin-bottom: -4vh;
+  width: 40%;
+  position: relative;
+  left: 5px;
+}
+.location {
+  position: relative;
+  font-size: 13px;
+  top:10px;
+  left: 10px;
+  font-family: "Playfair Display", serif;
+}
+.review {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  left: 10px;
+  top:23px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  width: 40%;
+  font-size: 12px;
+}
+.tinder--card p {
+  margin-top: 24px;
+  pointer-events: none;
+}
+.hoverimg {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  position: fixed;
+  display: inline-block;
+  cursor: pointer;
+  left: 60px;
+  bottom: 18%;
+}
+.hoverimg img {
+  opacity: 0;
+  transition: all 300ms;
+  position: absolute;
+  width: 200px;
+  top: -200%;
+  left: -50%;
+  z-index: 99999;
+}
+.hoverimg:hover img {
+  opacity: 1;
+}
+#icon {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hd1 {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font-family: "Vidaloka", serif;
+  color: #F15156;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#hrline1,
+#hrline2 {
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid #F15156;
+}
+#hrline1 {
+  margin-top: 70px;
+}
+.rank {
+  margin: 0 auto;
+  width: 75%;
+}
+.heading {
+  color: #D64045;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Carter One", cursive;
+}
+.above {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.fa {
+  font-size: 14px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  color: #D64045;
+  margin-top: 10px;
+  text-shadow: 0 0 5px white;
+}
+
+.middle {
+  margin-top: 10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.vote {
+  color: #1D3354;
+  text-align: right;
+  font-family: "Carter One", cursive;
+  font-size: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  max-width: 800px; /* Max width */
+  margin: 0 auto;
+  font-family: "Carter One", cursive;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-1 {
+  width: 60%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #4CAF50;
+}
+.bar-2 {
+  width: 30%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #2196F3;
+}
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #00bcd4;
+}
+.bar-4 {
+  width: 4%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #8367C7;
+}
+.bar-5 {
+  width: 1%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #f44336;
+}
+.bar-6 {
+  width: 1%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #6B8E23;
+}
+.bar-7 {
+  width: 1%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #FF69B4;
+}
+.bar-8 {
+  width: 1%;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #FFA07A;
+}
+button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  margin-left: 42%;
+  background-color: white;
+  cursor: pointer;
+}
+button i {
+  font-size: 30px;
+  color: orange;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: #FFC07F;
+}
+footer p {
+  padding-top: 8px;
+  font-size: 12px;
+  color: #F15156;
+  font-family: "Vidaloka", serif;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    height: 90%;
+  }
+  body {
+    background-image: url("https://cdn.glitch.com/60cbf0c8-51a4-497f-a391-d3bf5e32e6be%2Fbg1.1.png?v=1591487721314");
+  }
+  .hoverimg {
+    left: 5%;
+    width: 120px;
+    height: 100px;
+    bottom: 17%;
+  }
+  .hoverimg img {
+    width: 300px;
+    top: -170%;
+    left: -80%;
+  }
+  #icon {
+    width: 40%;
+  }
+  #hd1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  #hrline1,
+  #hrline2 {
+    position: absolute;
+    margin: 0 auto;
+    width: 20%;
+    top: 70px;
+  }
+  #hrline1 {
+    left: 3%;
+  }
+  #hrline2 {
+    right: 3%;
+  }
+  #top1{
+    width:20%;
+    position:fixed;
+    left:18%;
+    top:15%;
+  }
+  .tinder--card {
+    position: fixed;
+    left: 10%;
+    top: 30%;
+    height: 45%;
+    width: 35%;
+  }
+  .rank {
+    position: fixed;
+    right: 10%;
+    width: 40%;
+    top: 20%;
+  }
+  .review{
+    font-size:13px;
+    width: 40%;
+  }
+  .dollar{
+    font-size: 15px;
+  }
+  .restname{
+    font-size:16px;
+  }
+  button {
+    margin-left: 45%;
+    position: fixed;
+    bottom: 8%;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    background-position: right 0% bottom 1%;
+    background-image: url("https://cdn.glitch.com/60cbf0c8-51a4-497f-a391-d3bf5e32e6be%2Fbg1.1.png?v=1591487624200");
+  }
+  .hoverimg {
+    left: 30%;
+    bottom: 25%;
+    width: 200px;
+  }
+  .hoverimg img {
+    width: 500px;
+    top: -250%;
+  }
+  #icon {
+    width: 30%;
+  }
+  #hd1 {
+    margin-top: 55px;
+    font-size: 50px;
+  }
+  #hrline1,
+  #hrline2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 75px;
+    width: 23%;
+  }
+  #hrline1 {
+    left: 3%;
+  }
+  #hrline2 {
+    right: 3%;
+  }
+  .rank {
+    position: fixed;
+    right: 20%;
+    width: 40%;
+  }
+  button {
+    margin-left: 47%;
+    bottom: 8%;
+  }
+  #top1{
+    width:12%;
+    left:28%;
+    top:15%;
+  }
+  .tinder--card {
+    position: fixed;
+    left: 23%;
+    top: 30%;
+    height: 400px;
+    width: 22%;
+  }
+  .restname{
+    font-size:16px;
+  }
+  .location{
+    font-size:15px;
+  }
+  .dollar{
+    top:51%;
+    font-size: 17px;
+  }
+  .rank {
+    position: fixed;
+    right: 17%;
+    width: 35%;
+    top: 23%;
+  }
+  .review{
+    width:45%;
+  }
+  button {
+    margin-left: 47%;
+    bottom: 5%;
+  }
+}
+
+/*--------------------*/
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+/*@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}*/
